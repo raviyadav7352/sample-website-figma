@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    background-size: 100% 100%;
+    background-image: url("images/01\ 1.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    font-size: 15px;
+    background-color: #28414F;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 46px 10px 66px;
+    margin-bottom: 8px;
+}
+
+.navleftitem {
+    display: flex;
+    align-items: center;
+}
+
+.navitemline {
+    border-left: 2px solid #ffffff;
+    height: 18px;
+    margin: 0px 8px;
+}
+
+.navrightitem {
+    display: flex;
+    align-items: center;
+}
+
+.telephone {
+    background-image: url("images/telephone.png");
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 14px;
+    background-size: 100%;
+    margin-right: 10px;
+
+}
+
+.globe {
+    background-image: url("images/globe.png");
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 14px;
+    background-size: 100%;
+    margin: 0 6px 0 18px;
+}
+
+.profile {
+    height: 10px;
+    width: 10px;
+    margin-left: 20px;
+}
+
+.page1companylogo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 46px 0 66px;
+
+}
+
+.companylogo {
+    height: 46px;
+    width: 180px;
+
+}
+
+.basketcirle {
+    height: 36px;
+    width: 36px;
+    background-color: #DCDCDC;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.basket {
+    height: 18px;
+    width: 18px;
+}
+
+.page1dialermain {
+    display: flex;
+    justify-content: end;
+    margin: 120px 46px 0 0;
+}
+
+.page1dialer {
+    width: 230px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+    box-shadow: 0 4px 24px -1px rgb(0 0 0 / 20%), inset 5px 5px 4px #587c9b;
+    backdrop-filter: blur(10px);
+}
+
+.dialerheading {
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.dialerinput {
+    display: flex;
+    gap: 12px;
+}
+
+.dialer {
+    border-radius: 10px;
+    width: 50px;
+    height: 36px;
+    background-color: #DCDCDC;
+    font-size: 12px;
+    color: #494949;
+    border-color: snow;
+    border: hidden;
+}
+
+.numbertype {
+    width: 138px;
+}
+
+.dialerbottomtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    background-color: #39596A;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.profile img {
+    height: 14px;
+}
+
+.page1quote {
+    color: #fff;
+    margin: 6px 0 0px 66px;
+    padding-bottom: 38px;
+}
+
+.quote1 {
+    font-size: 36px;
+    line-height: 78px;
+
+}
+
+.quote2 {
+    font-size: 18px;
+    line-height: 0px;
+}
+
+.page1footer {
+    display: flex;
+}
+
+.footerimg1 {
+    background-image: url("images/footerimg1.png");
+}
+
+.footerimg2 {
+    background-image: url("images/footerimg2.png");
+}
+
+.footerimg3 {
+    background-image: url("images/footerimg3.png");
+
+}
+
+.footerimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+.footerimage1text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin: 38px 28px 30px;
+}
+
+.foooterimg1blur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(23, 23, 23, 0.5);
+    height: 140px;
+}
+
+.page1footerlink {
+    display: flex;
+    color: white;
+}
+
+.footerlink {
+    padding: 10px 0 16px;
+    width: 100%;
+    background: #39596A;
+}
+
+.footerlink1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlink2 {
+    background-color: #4D6876;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlink3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlink1item1 {
+    background-image: url("images/Vector.png");
+    /* height: 23px;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-size: 23px; */
+
+}
+
+.footerlink2item1 {
+    background-image: url("images/together.png");
+}
+
+.footerlink3item1 {
+    background-image: url("images/settingicon.png")
+}
+
+.settingtickimg {
+    background-image: url(images/tickicon.png);
+    height: 12px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: 5px 4px;
+}
+
+.footerlinkitem {
+    height: 18px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-right: 10px;
+}
+
+.footerlink1item3 {
+    background-image: url("images/arrowup.png");
+}
+
+.footerlink2item3 {
+    background-image: url("images/arrowup.png");
+}
+
+.footerlink3item3 {
+    background-image: url("images/arrowup.png");
+}
+
+.footerlinkarrow {
+    height: 8px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    margin-left: 10px;
+}
+
+.footerlinktext {
+    font-size: 12px;
+}
+
+.page2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page2image {
+    background-image: url("images/luxury.png");
+    height: 224px;
+    width: 270px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.page2alltext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageborder {
+    height: 244px;
+    width: 294px;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgb(120 120 120 / 25%);
+    filter: drop-shadow(0px 4px 4px rgba(125, 125, 125, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 58px 0 84px;
+}
+
+.page2text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page2text1 {
+    font-size: 36px;
+    line-height: 70px;
+}
+
+.page2text2 {
+    font-size: 36px;
+    line-height: 50px;
+    width: 74px;
+    font-family: cursive;
+}
+
+.page2line {
+    width: 260px;
+    border-bottom: 2px solid black;
+    margin-bottom: 38px;
+}
+
+.page2text3 {
+    font-size: 15px;
+    line-height: 18px;
+    width: 260px;
+    margin-bottom: 8px;
+}
+
+.page2text4 {
+    line-height: 24px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 210px;
+}
+
+/* .circlefill {
+    width: 20px;
+    border: 3px solid;
+    border-radius: 100%;
+} */
+.active {
+    background-color: black;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border: 3px solid;
+    border-radius: 100%;
+}
+
+.page2circle {
+    display: flex;
+    gap: 18px;
+}
+
+.page3 {
+    background-image: url(images/Sea\ Foam.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.page3heading {
+    font-size: 30px;
+}
+
+.page3tiles {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.tile {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 270px;
+    width: 220px;
+}
+
+.tiletext1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4D6876;
+    line-height: 50px;
+}
+
+.tiletext2 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.titletext3parent {
+    place-self: flex-end;
+    margin: 20px 19px -44px 0px;
+    color: #4D6876;
+}
+
+.tiletext3 {
+    font-size: 14px;
+}
+
+.tileimage {
+    height: 78px;
+    margin-top: 14px;
+}
+
+.tilegreater {
+    height: 12px;
+    margin: -2px 4px;
+    cursor: pointer;
+}
+
+.img1 {
+    background-image: url("images/hizmet1\ 1.png");
+}
+
+.img2 {
+    background-image: url("images/hizmet2\ 1.png");
+}
+
+.img3 {
+    background-image: url("images/hizmet3\ 1.png");
+}
+
+.img4 {
+    background-image: url("images/hizmet4\ 1.png");
+}
+
+.img5 {
+    background-image: url("images/hizmet5\ 1.png");
+}
+
+.img6 {
+    background-image: url("images/hizmet6\ 1.png");
+}
+
+.img7 {
+    background-image: url("images/hizmet7\ 1.png");
+}
+
+.img8 {
+    background-image: url("images/hizmet8\ 1.png");
+}
+
+.pg4image {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+.page4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 50px;
+}
+
+.page4heading {
+    font-size: 25px;
+    color: #28414F;
+}
+
+.page4tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 30px;
+}
+
+.pg4tile {
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    height: 240px;
+    width: calc(25% - 26px);
+}
+
+.pg4image {
+    height: 180px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.textback {
+    background-color: #4D6876;
+    height: 32px;
+    width: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.pg4tilename {
+    font-size: 15px;
+    color: #6C6C6C;
+    text-align: start;
+    padding: 12px 0 4px 15px;
+}
+
+.pg4tiletext {
+    padding-left: 15px;
+    font-size: 15px;
+    color: #3C3C3C;
+    text-align: left;
+    font-weight: 700;
+}
+
+.page4lastbutton {
+    background: #4D6876;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 25px;
+}
